@@ -1,0 +1,193 @@
+body {
+    background-color: #6aff5d;
+ 
+
+}
+
+/* testando */
+header {
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    margin: -8px;
+     
+}
+
+.titulo1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+/* Animação do Titulo Jornal Laguna */
+
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+
+}
+
+.titulo1:hover {
+    
+transform: translateX(0px) scale(1.1);
+
+}
+
+.titulo2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+/* NAVIGATION */
+
+ul { 
+    text-align: center;
+}
+
+
+nav ul li {
+
+    margin-left: 20px;
+    margin-right: 20px;
+  
+    text-align: center;
+    list-style: none;
+    display: inline;
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+    
+
+}
+
+footer {
+    background-color: white;
+    padding:30px
+}
+
+#art{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: auto;
+}
+
+section {
+
+    background-color: white;
+    padding: 10px ;
+    width: 1100px;
+    height: 435px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+section h3 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+
+section p {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px
+
+}
+ 
+div {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    margin-right: 40px;
+
+}
+
+
+figure {
+
+    display: inline-block;
+    float: right;
+    margin-left: auto;
+    margin-right: 18px;
+
+}
+
+figure img {
+
+    height: 400px;
+    width: 600px;
+}
+
+.not1 {
+
+    height: 480px;
+}
+
+.not2 {
+
+    height: 380px;
+}
+
+.imgh {
+
+    height: 345px;
+}
+
+/* rodapé */
+
+footer {
+
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+footer p {
+
+    margin: 4px;
+}
+
+footer h3 {
+
+    margin: 15px;
+    font-size: 140%;
+
+}
+
+button {
+
+transition: transform 0.5s;
+transform: translateX(0) scale(1);
+
+}
+
+button:hover, button:focus {
+    
+transform: translateX(0px) scale(1.4);
+
+}
+
+.link:link {
+
+    color: black;
+    font-size: 18px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link:visited {
+
+    color: green;
+    font-size: 18px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
